@@ -1,3 +1,8 @@
+name: Hello World Example
+
+on:
+  workflow_dispatch:    # Allow for manual trigger
+
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
